@@ -1,0 +1,35 @@
+/* Navbar */
+.navbar ul{
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Heading */
+.heading{
+    font-size: 2.5rem;
+}
+
+/* About */
+#page{
+    flex-direction: column;
+    align-items: center;
+}
+#page img{
+    width: 450px;
+    height: 300px;
+}
+#texts h5{
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contact */
+.message{
+    width: 120%;
+}
+#mesge{
+    width: 55%;
+}
+#send{
+    width: 40%;
+}

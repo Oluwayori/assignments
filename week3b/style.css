@@ -1,0 +1,190 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: chocolate;
+     padding-left: 2%;
+    padding-right: 5%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    position: sticky;    
+}
+.navbar ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 25px;
+}   
+.nav ul li a{
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    position: sticky;
+}    
+nav ul li a:hover{
+    color: rgb(161, 7, 7);
+    background-color: black;
+}   
+.button{
+    background-color: rgb(252, 48, 48);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 35px;
+}
+.button:hover{
+    color: rgb(94, 9, 51);
+}
+span{
+    color: rgb(243, 12, 12);
+}
+.logo:hover{
+    color: rgb(185, 8, 8);
+}
+
+/* Home Section */
+#homepage{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+}
+#homepage::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('Background img.png')no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;}
+.home{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    position: absolute;
+    align-items: left;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    justify-content: center;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#page{
+    display: flex;
+}
+#page img{
+    width: 600px;
+    height: 400px;
+}
+#texts{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    background-color:  chocolate;
+}
+#texts h5{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Services */
+#services{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    align-items: center;
+    padding: 50px;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.pictures img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* Contact Me */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    padding: 20px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#mesge{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    margin: 15px;
+    outline: none;
+}
+#send{
+    padding: 10px;
+    margin: 40px;
+    width: 10%;
+    border: none;
+    outline: none;
+}
+#send:hover{
+    color: rgb(170, 46, 46);
+    cursor: pointer;
+}
+
+ 
