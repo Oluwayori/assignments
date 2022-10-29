@@ -12,6 +12,12 @@ Javascript, HTML, CSS...
 I'm a Front end developer...
 
 
+## 🔗 Links
+[![replit](https://replit.com/@Ayomtunde/TASKS?v=1 /)
+[![replit](https://replit.com/@Ayomtunde/Login-and-Registration-Page?v=1 /)
+
+
+
 
 
 
